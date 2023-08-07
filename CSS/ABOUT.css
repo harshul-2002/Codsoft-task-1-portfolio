@@ -1,0 +1,55 @@
+
+.about {
+    background-color:#393E46;
+    color:white;
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 110px;
+    padding-right: 150px;
+    padding-left: 20%;
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+
+    width: 80%;
+
+}
+
+.image-container img {
+    /*  https://codepen.io/t_afif/pen/JjLVLPL  image hover link*/
+        --s: 250px;
+        --b: 8px;
+        --g: 14px;
+        --c: #EEEEEE;
+
+
+        width: var(--s);
+        aspect-ratio: 1;
+        outline: calc(var(--s)/2) solid #0009;
+        outline-offset: calc(var(--s)/-2);
+        cursor: pointer;
+        transition: .3s;
+}
+
+.image-container img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+
+.introductionText {
+    font-size: 190%;
+    color:#EEEEEE;
+}
+
+.content div h1 {
+
+    font-size: 320%;
+}
+

@@ -1,0 +1,144 @@
+
+#projects {
+  background-color: #EEEEEE;
+   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+
+}
+.project {
+    background-color:#393E46;
+    color: #EEEEEE;
+    margin: 0;
+    padding-top: 50px;
+    clip-path: polygon(0 0, 100% 15%, 100% 89%, 0% 100%);
+
+}
+
+#projects h1 {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 7%;
+  padding-right: 7%;
+  font-size: 200%;
+  font-family: "Rubik", sans-serif;
+  text-decoration: underline;
+
+}
+
+.container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.project-card {
+  border: 3px solid #00ADB5;
+  background-color: #EEEEEE;
+  color: black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 100%;
+  height:15rem;
+  margin-bottom: 12%;
+  padding: 5px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: row;
+  height:15rem;
+}
+
+
+.project-images img {
+  width: 350px;
+  height:15rem;
+  border-radius: 5px;
+  -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.project-details h2 {
+
+   font-size: 200%;
+}
+.project-details p {
+
+  font-size: large;
+
+}
+
+.project-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.tools {
+
+ margin-top: 2px;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+.tools span {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #535252;
+  color: #fff;
+  text-decoration: none;
+  font-size: large;
+
+}
+.button-container {
+  display: flex;
+  margin-top: auto;
+  display: flex;
+
+  width: 90%;
+  justify-content: space-between;
+
+}
+
+.button-container a {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-container a:hover {
+  background-color: #0056b3;
+}
+.tools span:hover {
+  background-color: black;
+}
+.project-images img:hover {
+  -webkit-filter: blur(0);
+	filter: blur(0);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
