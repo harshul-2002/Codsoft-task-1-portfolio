@@ -8,7 +8,6 @@
     padding-right: 150px;
     padding-left: 20%;
     clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
-
 }
 
 .content {
@@ -17,25 +16,22 @@
 }
 
 .image-container {
-
     width: 80%;
-
 }
 
 .image-container img {
     /*  https://codepen.io/t_afif/pen/JjLVLPL  image hover link*/
-        --s: 250px;
-        --b: 8px;
-        --g: 14px;
-        --c: #EEEEEE;
+    --s: 250px;
+    --b: 8px;
+    --g: 14px;
+    --c: #EEEEEE;
 
-
-        width: var(--s);
-        aspect-ratio: 1;
-        outline: calc(var(--s)/2) solid #0009;
-        outline-offset: calc(var(--s)/-2);
-        cursor: pointer;
-        transition: .3s;
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
 }
 
 .image-container img:hover {
@@ -45,11 +41,27 @@
 
 .introductionText {
     font-size: 190%;
-    color:#EEEEEE;
+   background: #EEEEEE;
+   background: -webkit-linear-gradient(to right, #EEEEEE 0%, #00ADB5 100%);
+   background: -moz-linear-gradient(to right, #EEEEEE 0%, #00ADB5 100%);
+   background: linear-gradient(to right, #EEEEEE 0%, #00ADB5 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .content div h1 {
 
-    font-size: 320%;
+  font-size: 320%;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -2px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.5rem;
 }
 
+.content div h1:hover {
+    color: #A6E3E9;
+    font-variation-settings: "wght" 582;
+    letter-spacing: 1px;
+}
