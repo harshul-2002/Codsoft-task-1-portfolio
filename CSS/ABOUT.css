@@ -16,13 +16,13 @@
 }
 
 .image-container {
-    margin-right:10px:
+    margin-right:3rem:
     width: 80%;
 }
 
 .image-container img {
     /*  https://codepen.io/t_afif/pen/JjLVLPL  image hover link*/
-    --s: 250px;
+    --s: 270px;
     --b: 8px;
     --g: 14px;
     --c: #EEEEEE;
